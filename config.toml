@@ -1,0 +1,4 @@
+baseURL = "https://the-business-book.co.za/"
+languageCode = "en-za"
+title = "The Business Book"
+googleAnalytics = "UA-4479761-12"

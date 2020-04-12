@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partial "head" . }}
+  </head>
+  <body>
+    {{ partial "nav" . }}
+    <div class="container">
+      {{ .Content }}
+    </div>
+    {{ partial "js" . }}
+    {{ partial "includes" . }}
+  </body>
+</html>

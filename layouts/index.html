@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partial "head" . }}
+  </head>
+  <body>
+    {{ partial "nav" . }}
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">The Business Book</h1>
+        <p class="lead">
+          How to start a business in South Africa
+        </p>
+        <hr class="my-4">
+        <p>
+          We need loads of help getting this project going. Look at our
+          <a href="/how-to-help/">How to help</a> page and see if you fit into any category.
+          If you can't help, but know somebody who can, please invite them over and show them
+          what we want to achieve.
+        </p>
+        <p>
+          Or just spread the word. That will also help.
+        </p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="/how-to-help/" role="button">Learn more about helping</a>
+        </p>
+
+        <p class="lead my-5">
+          <a class="btn btn-primary btn-lg" href="/table-of-contents/" role="button">Table of Contents</a>
+        </p>
+      </div>
+      {{ .Content }}
+    </div>
+    {{ partial "js" . }}
+    {{ partial "includes" . }}
+  </body>
+</html>
