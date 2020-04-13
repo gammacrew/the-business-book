@@ -16,7 +16,7 @@ If you don't know Git or Markdown you can just [submit an issue here](https://gi
 - Auditors
 - Business Consultants
 - Good writers
-- Prood readers
+- Proofreaders
 - Tax consultants
 
 <i class="fa fa-2x fa-question text-warning" aria-hidden="true"></i>
